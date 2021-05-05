@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    background-color: lightgray;
+}
+
+.container{
+    max-width: 1280px;
+    background: white;
+    margin: 0 auto;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.headerindex{
+    width: 100%;
+    height: 75px;
+    background-color: royalblue;
+}
+.logo{
+    height: 55px;
+}
+.img{
+    width: 50px;
+    height: 50px;
+    background-image: url(midia/logo.png);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 12.5px 0 0 12.5px;
+
+
+}
+
+.logotipo{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+    margin-top: -30px;
+}
+
+.logotipo h2{
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+}
+.logotipo h3{
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+}
+.logotipo h2{
+    margin-bottom: -5px;
+    font-weight: 400;
+}
+
+.menu{
+    float: right;
+    margin: -28px 0;
+    margin-right: 25px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    padding: 3px 5px;
+    margin: -5px;
+    border-radius: 4px;
+}
+
+.menu ul li a:hover{
+    background-color: white;
+    color: black;
+    font-weight: 400;
+}
+
+.intro{
+    width: 100%;
+    height: 500px;
+    background-color: lightgrey;
+    background-image: url(midia/demop.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.intro h2{
+    float: left;
+    margin-top: 215px;
+    margin-left: 50%;
+    font-size: 70px;
+    font-family: roboto;
+    font-weight: 500;
+    color: white;
+    transform: translate(-50%,0);
+    text-transform: uppercase;
+    border-bottom: solid white 4px;
+}
+.desc{
+    margin: 25px 0;
+}
+.desc h3{
+    font-size: 30px;
+    color: black;
+    font-family: roboto;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: solid royalblue 1px;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.desc p{
+    font-family: roboto;
+    font-weight: 300;
+    text-align: center;
+    width: 72%;
+    margin: 10px 14%;
+    font-size: 23px;
+}
+
+.desc2{
+    width: 100%;
+    height: 300px;
+    background-color: royalblue ;
+    margin-bottom: 30px;
+}
+
+.desc2 img{
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    margin-left: 30px;
+    margin-top: 25px;
+
+}
+
+.desc2 h3{
+    display: inline-block;
+    width: 75%;
+    margin-left: 25%;
+    margin-top: -235px;
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: 400;
+    color: white;
+}
+
+.desc2 p{
+    display: inline-block;
+    width: auto;
+    margin-left: 295px;
+    margin-top: -175px;
+    margin-right: 10px;
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: 300;
+    color: white;
+    text-align: justify;
+}
+
+.desc3{
+    margin-top: 25px;
+    width: 100%;
+    height: 300px;
+}
+.desc3 h3{
+    font-size: 30px;
+    color: black;
+    font-family: roboto;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+}
+
+.pesq{
+    border-top: solid royalblue 1px;
+    width: 46%;
+    margin: 10px 2%;
+    display: inline-block;
+    float: left;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 10px;
+}
+.pdir{
+    border-top: solid royalblue 1px;
+    width: 46%;
+    margin: 10px 2%;
+    display: inline-block;
+    float: right;
+    font-family: roboto;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+    padding: 10px;
+}
+
+.rodape{
+    background-color: royalblue;
+    width: 100%;
+    max-width: 1280px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
+.rodape span{
+    font-family: roboto;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+}
