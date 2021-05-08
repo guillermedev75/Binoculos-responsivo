@@ -119,9 +119,11 @@ html,body{
     text-transform: uppercase;
     border-bottom: solid white 4px;
 }
+
 .desc{
     margin: 25px 0;
 }
+
 .desc h3{
     font-size: 30px;
     color: black;
@@ -222,6 +224,7 @@ html,body{
     text-align: justify;
     padding: 10px;
 }
+
 
 .rodape{
     background-color: royalblue;
